@@ -1,6 +1,7 @@
 # Portfolio
 > A Website to showcase my Projects, Skills, and Achievements
 
+Check it out -> https://praveenkum11.github.io/portfolio/
 ![website preview](https://github.com/PraveenKum11/portfolio/blob/main/media/main.png)
 
 ## TODO:
