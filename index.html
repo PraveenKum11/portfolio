@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- P5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script src="sketch.js" ></script>
+
+    <script src="https://kit.fontawesome.com/6d805d00dd.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container-fluid gx-0">
+    <!-- Header -->
+    <nav class="navbar navbar-dark navbar-expand-lg c_navbar p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-sharp fa-solid fa-paperclip"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cid_projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cid_skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cid_contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid gx-0 c_main">
+        <div class="row gx-0">
+            <div class="col p-5 position-relative">
+                <p class="text-wrap mb-0 c_text_primary">
+                    Hi,<br>
+                    I'm <a href="#cid_skills" class="c_highlight">Praveen</a><br>
+                </p>
+                <p class="fs-6 c_text_secondary"> Software Developer / Web Developer </p>
+                <a href="#cid_contact">
+                    <button type="button" class="btn btn-light mt-2">Contact Me</button>
+                </a>
+                <br><br>
+                <div class="row position-absolute bottom-0 start-0 ps-5 pb-3">
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/praveen-kumar-07bb781b6/" target="_blank">
+                            <i class="fa-brands fa-linkedin c_connect_icon"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://github.com/PraveenKum11/" target="_blank">
+                            <i class="fa-brands fa-github c_connect_icon"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.codechef.com/users/praveenkum1102" target="_blank">
+                            <i class="fa-solid fa-code c_connect_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col container-fluid" id="cid_sketch_container">
+            </div>
+        </div>
+    </div>
+
+    <hr style="color: white;">
+
+    <!-- Project Section -->
+    <div class="container-fluid p-5">
+        <div class="c_card_like">
+            <div class="row">
+                <p class="fs-2 text-white" id="cid_projects"> <b>> Projects</b> </p>
+            </div>
+            <div class="row">
+                <div class="col p-3">
+                    <div class="card h-100 c_card" style="width: 18rem;">
+                        <img src="./media/nature1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title fs-5"><b>Game Of Life</b> &nbsp;
+                                <a href="https://github.com/PraveenKum11/game-of-life" target="_blank">
+                                    <i class="fa-brands fa-github" style="color: white; font-size: large;"></i>
+                                </a>
+                            </p>
+                            <p class="card-text">Simple implementation of Conway's Game of Life in SFML.</p>
+                        </div>
+                        <div class="card-footer c_card_footer">
+                            <button class="btn btn-success c_tag">C++</button>
+                            <button class="btn btn-success c_tag">SFML</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="card h-100 c_card" style="width: 18rem;">
+                        <img src="./media/nature2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title fs-5"><b>Image Programming</b> &nbsp;
+                                <a href="https://github.com/PraveenKum11/image_programming_ppm">
+                                    <i class="fa-brands fa-github" style="color: white; font-size: large;"></i>
+                                </a>
+                            </p>
+                            <p class="card-text">Creating and manipulating raw image data in PPM format.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-success c_tag">C++</button>
+                            <button class="btn btn-success c_tag">SFML</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="card h-100 c_card" style="width: 18rem;">
+                        <img src="./media/nature3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title fs-5"><b>Predicting Car Prices Using KNN</b> &nbsp;
+                                <a href="https://github.com/PraveenKum11/Predicting-Car-Prices-Using-KNN">
+                                    <i class="fa-brands fa-github" style="color: white; font-size: large;"></i>
+                                </a>
+                            </p>
+                            <p class="card-text">Using K-Nearest Neighbors
+                                to predict a car's market price according to it's attributes.</p>
+                        </div>
+                        <div class="card-footer c_card_footer">
+                            <button class="btn btn-success c_tag">Python</button>
+                            <button class="btn btn-success c_tag">ML</button>
+                            <button class="btn btn-success c_tag">Jupyter Notebook</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="card h-100 c_card" style="width: 18rem;">
+                        <img src="./media/nature4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title fs-5"><b>Spam Filter with Naive Bayes</b> &nbsp;
+                                <a href="https://github.com/PraveenKum11/Spam-Filter-with-Naive-Bayes">
+                                    <i class="fa-brands fa-github" style="color: white; font-size: large;"></i>
+                                </a>
+                            </p>
+                            <p class="card-text">In this project I have made a spam filter based on Multinomial
+                                Naive Bayes algorithm.</p>
+                        </div>
+                        <div class="card-footer c_card_footer">
+                            <button class="btn btn-success c_tag">Python</button>
+                            <button class="btn btn-success c_tag">ML</button>
+                            <button class="btn btn-success c_tag">Jupyter Notebook</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr style="color: white;">
+
+    <!-- Skills -->
+    <div class="container-fluid p-5" id="cid_skills">
+        <div class="c_card_like">
+            <p class="fs-2 text-white"><b>> Technical Skills</b></p>
+            <div class="row">
+                <div class="col">
+                    <p class="fs-4"> Languages: </p>
+                    <ul>
+                        <li> Proficient: </li>
+                        <ul>
+                            <li> <i class="fa-solid fa-c"></i> </li>
+                            <li> <i class="fa-solid fa-c">++</i> </li>
+                            <li> <i class="fa-brands fa-python"> Python</i> </li>
+                            <li> <i class="fa-brands fa-html5"> HTML5</i> </li>
+                            <li> <i class="fa-brands fa-css3"> CSS </i> </li>
+                            <br>
+                        </ul>
+                        <li> Fimiliar: </li>
+                        <ul>
+                            <li> <i class="fa-brands fa-square-js"> JavaScript</i> </li>
+                        </ul>
+                </div>
+                <div class="col">
+                    <p class="fs-4"> Frameworks/Library: </p>
+                    <ul>
+                        <li>WEB</li>
+                        <ul>
+                            <li> <i class="fa-solid fa-d"> jango</i> </li>
+                            <li> <i class="fa-solid fa-flask"> Flask</i> </li>
+                            <li> <i class="fa-brands fa-bootstrap"> Bootstrap</i> </li>
+                        </ul>
+                        <br>
+                        <li>AI/ML</li>
+                        <ul>
+                            <li> <i class="fa-solid"> Pandas</i></li>
+                            <li> <i class="fa-solid"> Numpy</i> </li>
+                            <li> <i class="fa-solid"> SciKit Learn</i> </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="fs-4"> Developer Tools: </p>
+                    <ul>
+                        <li><i class="fa-solid fa-code"> VS Code</i></li>
+                        <li> <i class="fa-brands fa-microsoft"> Visual Studio</i> </li>
+                        <li> <i class="fa-solid fa-book"> Jupyter Notebook</i> </li>
+                        <li> <i class="fa-brands fa-github"> Git </i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr style="color: white;">
+
+    <!-- Contact Me -->
+    <div class="container-fluid p-5" id="cid_contact">
+        <div class="c_card_like">
+            <p class="fs-2 text-white"> <b>> Contact Me </b></p>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Name"
+                                        style="background-color: #171717;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email"
+                                        style="background-color: #171717;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Subject"
+                                        style="background-color: #171717;">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea placeholder="Message" name="message" class="form-control" id="message"
+                                        cols="30" rows="10" style="background-color: #171717;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="#cid_contact">
+                                    <button type="button" class="btn btn-light mt-2">Send</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <p class="fs-5 p-5">
+                            I'm interested in SDE related opportunities.&nbsp;
+                            However, if you have other request or question, don't hesitate to contact me.
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

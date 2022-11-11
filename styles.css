@@ -1,0 +1,73 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    background-color: #171717;
+}
+
+canvas {
+  display: block;
+}
+
+.c_main
+{
+    background-color: #171717;
+}
+
+.c_navbar
+{
+    font-size: larger;
+    background-color: #171717;
+}
+
+.c_text_primary
+{
+    font-size: 5rem;
+    color: #EDEDED;
+}
+
+.c_text_secondary
+{
+    color: rgb(178, 178, 178);
+}
+
+.c_connect_icon
+{
+    font-size: large;
+    color: white;
+}
+
+.c_tag
+{
+    font-size: xx-small;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.c_card
+{
+    color: white;
+    background-color: #171717;
+}
+
+.card-footer
+{
+    border-color: green;
+}
+
+.c_highlight
+{
+    text-decoration: none;
+    color: #DA0037;
+    transition: all 1s ease;
+}
+
+.c_card_like
+{
+    padding: 1rem;
+    color: #EDEDED;
+    background-color: #2c2c2c;
+    border-radius: 0.5rem;
+}
